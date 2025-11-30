@@ -6,8 +6,8 @@
 #include "MessageBuffer.h"
 #include "RandomGenerator.h"
 
-#define MESH_PREFIX     "ntldr"
-#define MESH_PASSWORD   "5f325f79-c6ff-4792-b34c-6019d4070a72"
+#define MESH_PREFIX     "busik-mesh"
+#define MESH_PASSWORD   "busik-mesh"
 #define MESH_PORT       5555
 
 class App {

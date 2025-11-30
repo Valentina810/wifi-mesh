@@ -9,4 +9,5 @@ public:
     Display();
     void init();
     void drawScreen(const String& nodeName, const MessageBuffer& buf);
+    void drawStartupImage();
 };

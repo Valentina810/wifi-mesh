@@ -20,6 +20,7 @@ void App::setup() {
     delay(1000);
 
     display.init();
+    display.drawStartupImage();
 
     mesh.setDebugMsgTypes(ERROR | STARTUP);
     mesh.init(MESH_PREFIX, MESH_PASSWORD, &scheduler, MESH_PORT);
